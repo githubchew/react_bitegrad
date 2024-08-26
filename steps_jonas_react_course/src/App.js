@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Counter from "./Counter";
+import FlashCards from "./Flashcards";
 const messages = [
   "Learn React from yo mama⚛️",
   "Apply for jobs 💼",
@@ -9,6 +10,7 @@ const messages = [
 export default function App() {
   return (
     <div>
+      <FlashCards />
       <Counter />
       <Steps />
     </div>
