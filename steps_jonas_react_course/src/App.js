@@ -10,6 +10,7 @@ const messages = [
 export default function App() {
   return (
     <div>
+      <Counter />
       <FlashCards />
       <Counter />
       <Steps />
